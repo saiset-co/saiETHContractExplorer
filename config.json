@@ -1,0 +1,32 @@
+{
+    "HttpServer": {
+        "Host": "0.0.0.0",
+        "Port": "8817"
+    },
+    "Storage": {
+        "Url": "http://<storageUrl>",
+        "Auth": {
+            "Email": "admin@saistorage.com",
+            "Password": "123"
+        }
+    },
+    "Operations": [
+        {
+            "Code": "<function address, example:0xd0def521>",
+            "Name": "<function name, example:mint"
+        }
+    ],
+    "Address": {
+        "Url": "http://<address:port>"
+    },
+    "Contract": "<contract address>",
+    "WebSocket": {
+        "Token": "<saiwebsocket token>",
+        "Url": "http://<saiwebsocketurl:port>"
+    },
+    "StartBlock": 0,
+    "Geth": [
+        "<geth url:port>"
+    ],
+    "Sleep": <sleep_interval, example:20>
+}
