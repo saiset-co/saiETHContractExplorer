@@ -28,5 +28,5 @@
     "Geth": [
         "<geth url:port>"
     ],
-    "Sleep": <sleep_interval, example:20>
+    "Sleep": "<sleep_interval, (int) example:20>"
 }
